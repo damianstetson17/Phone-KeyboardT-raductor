@@ -11,7 +11,8 @@ El algoritmo planteado se desarrollo con la intención de no utilizar un mapeo d
 ## Como lanzar 🚀:
 ```bash
     cd Phone-KeyboardT-raductor/
-    dotnet run
+    cd Phone.Tests/
+    dotnet test
 ```
 
 ## Observaciones 🔍 :
