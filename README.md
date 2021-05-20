@@ -3,3 +3,13 @@ Programa que calcula la secuencia de teclas que hay que pulsar para escribir un 
 
 ## Lógica asociada 🤔:
 El algoritmo planteado se desarrollo con la intención de no utilizar un mapeo de teclas, sino siguiendo la lógica de ir "viendo" las letras contenidas en cada botón e ir presionando las ocurrencias de las mísmas.
+
+## Construido con 🛠️:
+* net5.0
+
+## Como lanzar 🚀:
+```bash
+cd Phone-KeyboardT-raductor/
+dotnet run
+```
+
