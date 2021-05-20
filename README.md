@@ -14,5 +14,5 @@ El algoritmo planteado se desarrollo con la intención de no utilizar un mapeo d
     dotnet run
 ```
 
-## Observaciones:
+## Observaciones 🔍 :
 * El output de la palabra ´foo foo´ del documento [Desafío Dirmod- JR.docx](https://github.com/damianstetson17/Phone-KeyboardT-raductor/blob/main/Desaf%C3%ADo%20Dirmod-%20JR.docx) es errónea, la solución correcta es: 333666 6660333666 666
