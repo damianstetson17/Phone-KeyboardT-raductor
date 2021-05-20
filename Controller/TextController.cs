@@ -55,28 +55,34 @@ namespace Calculator.Controllers
                     //if the letter is on button 7
                     if(OneLetter <'t')
                     {
-                        charLimit = 't';
+                        charOffset = 'p'; 
+                        charLimit = 's';
                         button = 7;
-                        lettersInButtonLimit = 4 ;   
+                        lettersInButtonLimit = 4 ;  
+                        Console.WriteLine($"{OneLetter} está en el {button}"); 
                     }else{
                         //if the letter is on button 8 
-                        if(OneLetter <'w')
+                        if(OneLetter < 'w')
                         {
-                            charLimit = 'w';
+                            charOffset = 't'; 
+                            charLimit = 'v';
                             button = 8;
                             lettersInButtonLimit = 3 ;
+                            Console.WriteLine($"{OneLetter} está en el {button}"); 
                         }else{
                             //the letter is on button 9
                             charOffset = 'w';
                             charLimit = 'z';
                             button = 9;
                             lettersInButtonLimit = 4 ; 
+                            Console.WriteLine($"{OneLetter} está en el btn {button}"); 
                         }
                     }
                 }else{
                     charOffset = 'a';
                     charLimit = 'o';
                     lettersInButtonLimit = 3 ;
+                    Console.WriteLine($"{OneLetter} está en algun btn({button}) < 7"); 
                 }
                 //if its not a 'space' letter
                 for (char l = charOffset; l <= charLimit; l++)

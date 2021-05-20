@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/damian/Desktop/C#/PhoneKeyBoard/C#.csproj": {}
+    "/home/aceleradora10/Escritorio/ejercicioTelefono/Phone-KeyboardT-raductor/C#.csproj": {}
   },
   "projects": {
-    "/home/damian/Desktop/C#/PhoneKeyBoard/C#.csproj": {
+    "/home/aceleradora10/Escritorio/ejercicioTelefono/Phone-KeyboardT-raductor/C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/damian/Desktop/C#/PhoneKeyBoard/C#.csproj",
+        "projectUniqueName": "/home/aceleradora10/Escritorio/ejercicioTelefono/Phone-KeyboardT-raductor/C#.csproj",
         "projectName": "C#",
-        "projectPath": "/home/damian/Desktop/C#/PhoneKeyBoard/C#.csproj",
-        "packagesPath": "/home/damian/.nuget/packages/",
-        "outputPath": "/home/damian/Desktop/C#/PhoneKeyBoard/obj/",
+        "projectPath": "/home/aceleradora10/Escritorio/ejercicioTelefono/Phone-KeyboardT-raductor/C#.csproj",
+        "packagesPath": "/home/aceleradora10/.nuget/packages/",
+        "outputPath": "/home/aceleradora10/Escritorio/ejercicioTelefono/Phone-KeyboardT-raductor/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/damian/.nuget/NuGet/NuGet.Config"
+          "/home/aceleradora10/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }
