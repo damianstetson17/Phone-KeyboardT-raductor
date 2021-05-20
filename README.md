@@ -2,13 +2,14 @@
 Programa que calcula la secuencia de teclas que hay que pulsar para escribir un cierto mensaje para un dispositivo móvil.
 
 ## Lógica asociada 🤔:
-El algoritmo planteado se desarrollo con la intención de no utilizar un mapeo de teclas, sino siguiendo la lógica de ir "viendo" las letras contenidas en cada botón e ir presionando las ocurrencias de las mísmas.
+Las pruebas unitarias fueron desarrolladas en base a los outputs solicitados en el documento [Desafío Dirmod- JR.docx](https://github.com/damianstetson17/Phone-KeyboardT-raductor/blob/main/Desaf%C3%ADo%20Dirmod-%20JR.docx)
 
 ## Construido con 🛠️:
+* [MSTest](https://docs.microsoft.com/es-es/dotnet/core/testing/unit-testing-with-mstest)
 * [net5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
 * [VSCode](https://code.visualstudio.com/)
 
-## Como lanzar 🚀:
+## Como lanzar las pruebas🚀:
 ```bash
     cd Phone-KeyboardT-raductor/
     cd Phone.Tests/
