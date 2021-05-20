@@ -17,4 +17,4 @@ El algoritmo planteado se desarrollo con la intención de no utilizar un mapeo d
 ## Observaciones 🔍 :
 * Vease la rama ['test'](https://github.com/damianstetson17/Phone-KeyboardT-raductor/tree/test) que contiene pruebas unitarias como lo son las solcitadas en el documento [Desafío Dirmod- JR.docx](https://github.com/damianstetson17/Phone-KeyboardT-raductor/blob/main/Desaf%C3%ADo%20Dirmod-%20JR.docx)
 
-* El output de la palabra ´foo foo´ del documento [Desafío Dirmod- JR.docx](https://github.com/damianstetson17/Phone-KeyboardT-raductor/blob/main/Desaf%C3%ADo%20Dirmod-%20JR.docx) es errónea, la solución correcta es: 333666 666022 2777
+* El output de la palabra ´foo bar´ del documento [Desafío Dirmod- JR.docx](https://github.com/damianstetson17/Phone-KeyboardT-raductor/blob/main/Desaf%C3%ADo%20Dirmod-%20JR.docx) es errónea, la solución correcta es: 333666 666022 2777
