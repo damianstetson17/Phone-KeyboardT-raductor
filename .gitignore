@@ -1,2 +1,3 @@
-#ignore vscode config
-.vscode
+#ignore compiler stuffs
+/bin/
+/obj/

@@ -1,7 +1,7 @@
 using System;
-using System.Collections.Generic;
+using Phone.Exceptions;
 
-namespace Calculator.Controllers
+namespace Phone.Controllers
 {
     /*  
         The TextController class
@@ -14,22 +14,27 @@ namespace Calculator.Controllers
         */
         public string getNumberSecuence(string word){
             string resultCoord ="";
-            foreach (char letter in word)
+            if(word.Length > 0)
             {
-                //if its the first input
-                if(resultCoord.Length == 0){
-                    resultCoord += getLetterNumber(letter);
-                }else{
-                    //getting the next number coords
-                    string nextNumbers = getLetterNumber(letter);
-                    //it if the last number in input is equal to the first new one
-                    if(resultCoord[resultCoord.Length-1] == nextNumbers[0])
-                    {
-                        resultCoord += " " + nextNumbers;
+                foreach (char letter in word)
+                {
+                    //if its the first input
+                    if(resultCoord.Length == 0){
+                        resultCoord += getLetterNumber(letter);
                     }else{
-                        resultCoord += nextNumbers;
-                    }
-                }  
+                        //getting the next number coords
+                        string nextNumbers = getLetterNumber(letter);
+                        //it if the last number in input is equal to the first new one
+                        if(resultCoord[resultCoord.Length-1] == nextNumbers[0])
+                        {
+                            resultCoord += " " + nextNumbers;
+                        }else{
+                            resultCoord += nextNumbers;
+                        }
+                    }  
+                }
+            }else{
+                throw new EmptyWordException ("Empty word recibed");
             }
             return (resultCoord);
         }
@@ -59,7 +64,6 @@ namespace Calculator.Controllers
                         charLimit = 's';
                         button = 7;
                         lettersInButtonLimit = 4 ;  
-                        Console.WriteLine($"{OneLetter} está en el {button}"); 
                     }else{
                         //if the letter is on button 8 
                         if(OneLetter < 'w')
@@ -68,21 +72,18 @@ namespace Calculator.Controllers
                             charLimit = 'v';
                             button = 8;
                             lettersInButtonLimit = 3 ;
-                            Console.WriteLine($"{OneLetter} está en el {button}"); 
                         }else{
                             //the letter is on button 9
                             charOffset = 'w';
                             charLimit = 'z';
                             button = 9;
                             lettersInButtonLimit = 4 ; 
-                            Console.WriteLine($"{OneLetter} está en el btn {button}"); 
                         }
                     }
                 }else{
                     charOffset = 'a';
                     charLimit = 'o';
                     lettersInButtonLimit = 3 ;
-                    Console.WriteLine($"{OneLetter} está en algun btn({button}) < 7"); 
                 }
                 //if its not a 'space' letter
                 for (char l = charOffset; l <= charLimit; l++)
